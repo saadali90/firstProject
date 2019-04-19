@@ -1,0 +1,734 @@
+/* **
+ * ========================================
+ * Includes Fonts
+ * ========================================
+ ** */
+
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(../fonts/font-awesome/fonts/FontAwesome.otf);
+}
+
+@font-face {
+    font-family: fontawesome-webfont;
+    src: url(../fonts/font-awesome/fonts/fontawesome-webfont.ttf);
+}	
+
+	
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'); /* support Internet explorer  */
+    src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), /* support Internet explorer  */
+    url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* support Modern browser  */
+    url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf') format('truetype'), /* support firefox , chrome   */
+    url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg');/* Svg form   */
+	font-weight: normal; 
+	font-style :normal;		 
+}	
+
+
+@font-face {
+    font-family: 'open-sans';
+    src: url('../fonts/open-sans/OpenSans-Regular-webfont.eot');   /* support Internet explorer  */
+    src: url('../fonts/open-sans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* support Internet explorer  */
+    url('../fonts/open-sans/OpenSans-Regular-webfont.woff') format('woff'), /* support Modern browser  */
+    url('../fonts/open-sans/OpenSans-Regular.ttf') format('truetype'), /* support firefox , chrome   */
+    url('') format('svg');
+	font-weight: normal;
+	font-style :normal ;	 
+}
+
+@font-face {
+    font-family: OpenSans-L;
+    src: url(../fonts/open-sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-R;
+    src: url(../fonts/open-sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-B;
+    src: url(../fonts/open-sans/OpenSans-Bold.ttf);
+}
+
+.p-0{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+.container{
+	width: 1440px;
+}
+
+.map-section{
+	/*padding: 40px 0;*/
+	overflow: hidden;
+}
+
+.map{
+	width: 100%; 
+	height: 99vh;
+	margin: 0 auto;
+}
+
+.mapsidebar{
+	max-height: 400px !important;
+	overflow-y: scroll;
+}
+
+#main {
+    position:absolute; 
+	height: 500px; 
+	left:600px; 
+	top:120px; 
+	width:auto;
+    font-family: open-sans;
+    font-size: 13px;
+    white-space: pre;
+    margin: 5px;
+    padding: 0px;
+}
+
+.map-section .side-box{
+	position: absolute;
+	top: -85vh;
+	right: 30px;
+	left: auto;
+	background-color: rgba(201, 215, 245, .6);
+	width: 350px;
+	padding: 15px 20px;
+	border-radius: 0;
+	/*box-shadow: -2px 0px 14px rgba(0, 0, 0, .2); */
+	z-index: 100;
+	
+	transform: translateX(380px);
+	-webkit-transform: translateX(380px);
+	
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.map-section .side-box.open{
+	transform: translateX(0);
+	-webkit-transform: translateX(0);
+}
+
+.map-section .filter-box{
+	position: absolute;
+	top: -85vh;
+	right: 30px;
+	left: auto;
+	background-color: rgba(201, 215, 245, .6);
+	width: 350px;
+	padding: 15px 20px;
+	border-radius: 0;
+	/*box-shadow: -2px 0px 14px rgba(0, 0, 0, .2); */
+	z-index: 100;
+	
+	transform: translateX(380px);
+	-webkit-transform: translateX(380px);
+	
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.map-section .filter-box.open{
+	transform: translateX(0);
+	-webkit-transform: translateX(0);
+}
+
+.gm-style .gm-style-iw-d{
+    overflow: auto !important;
+    position: relative;
+    z-index: 9999;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.gm-style .gm-style-iw-c{
+	z-index: 9999 !important;
+	transform: translate(-99%,-122%);
+	border-radius: 0;
+	border-top-left-radius: 8px;
+	border-right: 1px solid #47AFDD;
+	overflow: visible;
+	
+	width: 350px;
+	/*max-height: 350px !important;*/
+	/*overflow-y: scroll;*/
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,e28200+0,f2a83b+0,e28200+100 */
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(left, #1e5799 0%, #e28200 0%, #f2a83b 0%, #e28200 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #1e5799 0%,#e28200 0%,#f2a83b 0%,#e28200 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #1e5799 0%,#e28200 0%,#f2a83b 0%,#e28200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#e28200',GradientType=1 ); /* IE6-9 */
+}
+
+button.gm-ui-hover-effect{
+    top: -26px !important;
+    right: -22px !important;
+    opacity: 1;
+    
+    background-image: url('../images/cross-btn.png') !important;
+    background-size: 25px !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+
+button.gm-ui-hover-effect img {
+    border: 1px solid #000;
+    margin: 0 !important;
+    border-radius: 100%;
+    
+    transform: translate(-1000px, -1000px);
+    -webkit-transform: translate(-1000px, -1000px);
+}
+
+/*
+.gm-style-iw-t::before,
+.gm-style .gm-style-iw-t::after{
+    border: none;
+}
+
+.gm-style .gm-style-iw-t::after{
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: 1px solid #47AFDD;
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    height: 90px;
+    width: 1px;
+    top: -77px;
+    right: 0;
+}
+*/
+
+.gm-style .gm-style-iw-t::after{
+    display: none !important;
+}
+
+.gm-style .gm-style-iw-c h3{
+    font-family: OpenSans-B;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 0 2px;
+}
+
+.gm-style .gm-style-iw-c .googft-info-window{
+    font-family: OpenSans-R;
+    font-size: 13px;
+    color: #fff;
+}
+
+.map-section .side-box h2,
+.map-section .filter-box h2{
+	font-family: OpenSans-B;
+	font-size: 16px;
+	color: #000;
+	margin: 0 0 10px;
+}
+
+.map-section .side-box .frm-srch{
+	width: 100%;
+	display: block;
+	border-radius: 5px;
+	box-shadow: none;
+	font-family: OpenSans-R;
+	font-weight: 400;
+	font-size: 13px;
+	color: #000;
+	margin: 0 0 5px;
+	border: 1px solid #000;
+	padding: 3px 8px;
+    border: 1px solid #797979;
+	
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.map-section .side-box .frm-srch:focus{
+	outline: 0 !important;
+	border: 1px solid #E28200;
+}
+
+.frm-btn{
+	background-color: #47AFDD;
+	border: none;
+	color: #fff;
+	font-family: OpenSans-R;
+	font-size: 12px;
+	padding: 8px 15px;
+	min-width: 75px;
+	text-transform: capitalize;
+	text-align: center;
+	border-radius: 5px;
+	
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.frm-btn:hover{
+	background-color: #E28200;
+	border: none;
+	color: #fff;
+}
+
+.frm-btn:focus{
+    outline: 0 !important;
+    color: #fff;
+}
+
+.cbl-btn.frm-btn{
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+.relod-btn.frm-btn{
+    position: absolute;
+    top: -40px;
+    right: 106px;
+}
+
+.btn-wrap .btn{
+	float: right;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.mapsidebar .docroot > ul img{
+    height: 11px;
+    margin: 4px 4px 0 0px;
+}
+
+.mapsidebar li.docroot{
+	margin-bottom: 0;
+}
+
+.mapsidebar li{
+	font-family: OpenSans-B;
+	font-size: 14px;
+}
+
+.mapsidebar li.placemark{
+	font-family: OpenSans-R;
+	font-size: 13px;
+	color: #000;
+	text-indent: 0;
+	padding-left: 0;
+	padding-top: 2px;
+}
+
+.mapsidebar li.placemark:hover{
+	color: #E28200;
+}
+
+.mapsidebar ul div ul > li{
+    padding-left: 18px;
+}
+
+.mapsidebar ul div{
+    border-top: 1px solid #cecece; 
+    padding-top: 8px;
+}
+
+.mapsidebar .docroot-cbl > ul > li.placemark{
+    /*padding-left: 15px;
+    
+    background-image: url('../images/bullet-o.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 9px;
+    background-size: 8px;*/
+    
+    padding-left: 15px;
+    position: relative;
+}
+
+.mapsidebar .docroot-cbl > ul > li.placemark span{
+    width: 8px;
+    height: 8px;
+    /*background-color: #E28200;*/
+    margin-right: 5px;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.mapsidebar ul span.open, 
+.mapsidebar ul span.closed{
+	background-position: -5px 0;
+}
+
+.mapsidebar ul ul{
+	margin-left: 2px;
+}
+
+#map-sidebar ul li ul {
+	margin:0 0 8px 0;
+} 
+
+.click-arrow,
+.fltr-close{
+	position: absolute;
+	left: -22px;
+    top: 0;
+    height: 30px;
+    color: #000;
+    text-align: center;
+	cursor: pointer;
+    width: 22px;
+    padding-top: 8px;
+	background-color: rgba(201, 215, 245, .6);
+	
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.menu-icn{
+    font-size: 24px;
+    color: #000;
+    position: absolute;
+    top: -90vh;
+    right: 80px;
+    cursor: pointer;
+    
+    -webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+    
+    opacity: 1;
+    visibility: visible;
+}
+
+.fltr-icn{
+    font-size: 24px;
+    color: #000;
+    position: absolute;
+    top: -86vh;
+    right: 80px;
+    cursor: pointer;
+    
+    -webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+    
+    opacity: 1;
+    visibility: visible;
+}
+
+.click-arrow:hover,
+.click-arrow:focus,
+.menu-icn:hover,
+.menu-icn:focus,
+.fltr-close:hover,
+.fltr-close:focus,
+.fltr-icn:hover,
+.fltr-icn:focus{
+	color: #E28200;
+}
+
+.menu-icn.hide,
+.click-arrow.hide,
+.fltr-close.hide{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.cables-list{
+    /*max-height: 400px;
+    overflow-y: scroll;*/
+}
+
+.cables-list ul{
+    padding: 0;
+}
+
+.cables-list ul li.placemark{
+    list-style: none;
+    padding: 0 0 7px 0;
+    font-family: OpenSans-R;
+    color: #000;
+    font-size: 14px;
+    width: 47%;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    padding-left: 15px;
+    
+    /*background-image: url('../images/bullet-o.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 9px;
+    background-size: 8px;*/
+}
+
+.cables-list ul li.placemark span{
+    width: 8px;
+    height: 8px;
+    /*background-color: #E28200;*/
+    margin-right: 5px;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.cables-list ul li.placemark:hover{
+    color: #E28200;
+}
+
+.cables-list ul li img{
+    width: 19px;
+    margin-top: -11px;
+    margin-left: -6px;
+}
+
+/*============ Cable Colors ==============*/
+
+/* Red */
+span.clr-FFF00014{
+    background-color: #1400f0;
+}
+
+/* Blue */
+span.clr-FF1400FF{
+    background-color: #ff0014;
+}
+
+/* Green */
+span.clr-FF147800{
+    background-color: #007814;
+}
+
+/* Yellow */
+span.clr-FF14F0FF{
+    background-color: #fff014;
+}
+
+/* Orange */
+span.clr-FF1478FF{
+    background-color: #ff7814;
+}
+
+/* Pink */
+span.clr-FF7800F0{
+    background-color: #f00078;
+}
+
+/* LightBlue */
+span.clr-FFF0FF14{
+    background-color: #1efff0;
+}
+
+/* LightGreen */
+span.clr-FF00FF14{
+    background-color: #14ff00;
+}
+
+/* Maroon */
+span.clr-FF140078{
+    background-color: #710013;
+}
+
+/* Gray */
+span.clr-FF828282{
+    background-color: #828282;
+}
+
+/* Purple */
+span.clr-FFFF78B4{
+    background-color: #b478ff;
+}
+
+/* Brown */
+span.clr-FF143C96{
+    background-color: #963c14;
+}
+
+/* LightBrown */
+span.clr-FF1478A0{
+    background-color: #a07814;
+}
+
+/* GreenYellow */
+span.clr-FF789614{
+    background-color: #149678;
+}
+
+.od .modal-dialog{
+    width: 800px;
+}
+
+.od .modal-header,
+.od .modal-footer{
+    padding: 0;
+    border: none;
+}
+
+.od .modal-header{
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.od .modal-title{
+    padding: 8px 15px;
+    font-family: OpenSans-B;
+    margin: 0;
+    font-size: 22px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.od .close{
+    opacity: 1;
+    background-color: #000;
+    color: #fff;
+    width: 24px;
+    font-size: 13px;
+    height: 24px;
+    border-radius: 26px;
+    font-weight: normal;
+    text-shadow: none;
+    margin-top: -13px;
+    margin-right: -12px;
+}
+
+.od .close:hover{
+    background-color: #2271DD;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+    top: 70px;
+    right: 0;
+    width: 88%;
+    left: 21px;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+  font-family: OpenSans-R;
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+
+/*
+.mapsidebar ul ul ul{
+	border-left: 1px dotted #9c9c9c;
+}
+
+.mapsidebar li.placemark:before{
+	position: absolute !important;
+	content: "";
+    width: 12px;
+    height: 1px;
+    border-top: 1px dotted #9c9c9c;
+    position: absolute;
+    margin-left: -18px;
+    margin-top: 8px;
+}
+*/
+
+/*========== checkboxes ===========*/
+
+.hor1{
+    border: none;
+    margin: 15px auto;
+    border-top: 1px solid #888;
+}
+
+.sd-ckhbx{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	width: 45%;
+}
+
+.sd-ckhbx.full-width{
+	width: 100%;
+}
+
+/* Base for label styling */
+.sd-ckhbx [type="checkbox"]:not(:checked),
+.sd-ckhbx [type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+}
+
+    .sd-ckhbx [type="checkbox"]:not(:checked) + label,
+    .sd-ckhbx [type="checkbox"]:checked + label {
+        position: relative;
+        padding-left: 27px;
+		padding-top: 4px;
+        cursor: pointer;
+		text-transform: capitalize;
+		font-family: OpenSans-R;
+		font-size: 16px;
+		color: #303030;
+		font-weight: 300;
+    }
+
+        /* checkbox aspect */
+        .sd-ckhbx [type="checkbox"]:not(:checked) + label:before,
+        .sd-ckhbx [type="checkbox"]:checked + label:before {
+            content: '';
+            position: absolute;
+            left: 2px;
+            top: 7px;
+            width: 16px;
+            height: 16px;
+            border: 1px solid #8c8c8c;
+            background: #fff;
+            border-radius: 2px;
+            /*  box-shadow: inset 0 1px 3px rgba(0,0,0,.3) */
+        }
+        /* checked mark aspect */
+        .sd-ckhbx [type="checkbox"]:not(:checked) + label:after,
+        .sd-ckhbx [type="checkbox"]:checked + label:after {
+            /*  content: '✔'; */
+            font-family: FontAwesome;
+            content: "\f00c";
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            font-size: 18px;
+            line-height: 0.8;
+            color: #E17C28;
+            font-weight: 100;
+            transition: all .2s;
+        }
+        /* checked mark aspect changes */
+        .sd-ckhbx [type="checkbox"]:not(:checked) + label:after {
+            opacity: 0;
+            transform: scale(0);
+        }
+
+        .sd-ckhbx [type="checkbox"]:checked + label:after {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+    /* checked mark aspect */
+.sd-ckhbx [type="checkbox"]:not(:checked):hover + label:before {
+        background: #E17C28;
+        border: 1px solid #E17C28;
+    }

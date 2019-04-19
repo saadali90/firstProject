@@ -1,0 +1,82 @@
+/*======= medium devices 992-1199 =========*/
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+	margin-left: 0px;
+	padding-left: 0px;
+	
+	margin-bottom: 22px;
+}
+
+.navbar-header{
+	float: none;
+}
+
+.navbar-brand{
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	text-align: center;
+	display: block;
+	
+	width: 100%;
+}
+
+.navbar-brand > img{
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	text-align: center;
+	display: block;
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+	padding: 0;
+}
+
+.top-navigation .navbar-nav{
+	height: 90px;
+}
+
+.top-navigation .navbar-nav li a{
+	margin-left: 18px;
+}
+
+.content-container .left-col{
+	width: 100%;
+}
+
+.content-container .left-content{
+	margin-left: auto;
+	margin-right: auto;
+	
+	text-align: center;
+}
+
+.content-container .right-content{
+	margin-left: auto;
+	margin-right: auto;
+	
+	text-align: center;
+	width: 100%;
+}
+
+.with-nav-tabs.panel-default .nav-tabs > li{
+	width: 33.33%;
+}
+
+.content-container .right-content .sidebar ul.calender{
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	text-align: center;
+	width: 35%;
+}
+
+.content-container .right-content .sidebar ul li{
+	/* width: 75%; */
+	text-align: left;
+}
+
+.content-container .right-content{
+	margin-bottom: 50px;
+}

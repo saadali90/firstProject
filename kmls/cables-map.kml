@@ -1,0 +1,1093 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+	
+	<name>Cables</name>
+	
+	<Style id="blueCable">
+		<LineStyle>
+			<width>2</width>
+			<color>FF1400FF</color>
+		</LineStyle>
+	</Style>
+	
+	<Style id="redCable">
+		<LineStyle>
+			<width>2</width>
+			<color>FFF00014</color>
+		</LineStyle>
+	</Style>
+	
+	<Style id="greenCable">
+		<LineStyle>
+			<width>2</width>
+			<color>FF147800</color>
+		</LineStyle>
+	</Style>
+	
+	<Style id="yellowCable">
+		<LineStyle>
+			<width>2</width>
+			<color>FF14F0FF</color>
+		</LineStyle>
+	</Style>
+	
+	<Style id="orangeCable">
+		<LineStyle>
+			<width>2</width>
+			<color>FF1478FF</color>
+		</LineStyle>
+	</Style>
+	
+	<Style id="pinkCable">
+		<LineStyle>
+			<width>2</width>
+			<color>FF7800F0</color>
+		</LineStyle>
+	</Style>
+	
+	<Style id="lightblueCable">
+		<LineStyle>
+			<width>2</width>
+			<color>FFF0FF14</color>
+		</LineStyle>
+	</Style>
+	
+	<Style id="lightgreenCable">
+		<LineStyle>
+			<width>2</width>
+			<color>FF00FF14</color>
+		</LineStyle>
+	</Style>
+	
+	<Style id="maroonCable">
+		<LineStyle>
+			<width>2</width>
+			<color>FF140078</color>
+		</LineStyle>
+	</Style>
+	
+	<Style id="grayCable">
+		<LineStyle>
+			<width>2</width>
+			<color>FF828282</color>
+		</LineStyle>
+	</Style>
+	
+	<Style id="purpleCable">
+		<LineStyle>
+			<width>2</width>
+			<color>FFFF78B4</color>
+		</LineStyle>
+	</Style>
+	
+	<Style id="brownCable">
+		<LineStyle>
+			<width>2</width>
+			<color>FF143C96</color>
+		</LineStyle>
+	</Style>
+	
+	<Style id="lightbrownCable">
+		<LineStyle>
+			<width>2</width>
+			<color>FF1478A0</color>
+		</LineStyle>
+	</Style>
+	
+	<Style id="greenyellowCable">
+		<LineStyle>
+			<width>2</width>
+			<color>FF789614</color>
+		</LineStyle>
+	</Style>
+	
+
+		<Placemark>
+			<name>Europe India Gateway EIG</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> europe-india-gateway-eig<br>
+<b>cable_id:</b> 1580<br>
+<b>name:</b> Europe India Gateway EIG<br>
+<b>color:</b> #bd75b1<br>
+<b>length:</b> 15,000 km<br>
+<b>rfs:</b> February 2011<br>
+<b>owners:</b> AT&amp;T,  Airtel (Bharti),  Bharat Sanchar Nigam Ltd. (BSNL),  BT,  Djibouti Telecom,  du,  Gibtelecom,  Libya International Telecommunications Company,  MTN Group,  Omantel,  Portugal Telecom,  Saudi Telecom,  Telecom Egypt,  Telkom South Africa,  Verizon,  Vodafone,  Zajil Telecom<br>
+<b>url:</b> https://www.europeindiagateway.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#redCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>europe-india-gateway-eig</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1580</value>
+				</Data>
+				<Data name='color'>
+					<value>#bd75b1</value>
+				</Data>
+				<Data name='length'>
+					<value>15,000 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>February 2011</value>
+				</Data>
+				<Data name='owners'>
+					<value>AT&amp;T,  Airtel (Bharti),  Bharat Sanchar Nigam Ltd. (BSNL),  BT,  Djibouti Telecom,  du,  Gibtelecom,  Libya International Telecommunications Company,  MTN Group,  Omantel,  Portugal Telecom,  Saudi Telecom,  Telecom Egypt,  Telkom South Africa,  Verizon,  Vodafone,  Zajil Telecom</value>
+				</Data>
+				<Data name='url'>
+					<value>https://www.europeindiagateway.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>29.700932,31.072267,0.0 30.239408,30.34474,0.0 31.539993,29.740055,0.0 32.653176,29.113616,0.0</coordinates></LineString><LineString><coordinates>-5.347725,35.93659,0.0 -5.347578,36.156017,0.0</coordinates></LineString><LineString><coordinates>32.653176,29.113616,0.0 33.422804,28.292096,0.0 33.896437,27.76307,0.0 34.136085,27.673854,0.0 35.115284,27.157889,0.0 38.429832,21.959366,0.0 42.250142,15.776582,0.0 42.806001,13.972901,0.0 43.750532,12.361681,0.0 44.26391,12.376467,0.0 44.485394,12.005056,0.0 44.620648,11.778195,0.0 44.877874,11.7607,0.0 62.894366,16.578379,0.0 72.565745,19.08881,0.0 72.875902,19.076074,0.0</coordinates></LineString><LineString><coordinates>44.485394,12.005056,0.0 43.147993,11.594869,0.0</coordinates></LineString><LineString><coordinates>38.429832,21.959366,0.0 39.182761,21.481532,0.0</coordinates></LineString><LineString><coordinates>-4.544405,50.828203,0.0 -14.450599,48.348977,0.0 -14.450599,38.886475,0.0 -13.039272,36.983447,0.0 -11.839273,36.314815,0.0 -7.172675,35.752779,0.0 -5.347725,35.93659,0.0 -2.160227,36.216786,0.0 2.307592,38.098757,0.0 8.82292,38.113818,0.0</coordinates></LineString><LineString><coordinates>8.82292,38.113818,0.0 10.686395,38.118274,0.0 11.769109,37.892508,0.0 12.765593,36.885952,0.0 13.285221,36.507129,0.0 11.986492,35.468311,0.0 13.037565,34.57518,0.0 17.184632,34.024343,0.0 17.274964,33.855583,0.0 27.419391,32.404461,0.0 29.700932,31.072267,0.0 30.188627,30.262114,0.0 31.489212,29.656838,0.0 32.653176,29.113616,0.0</coordinates></LineString><LineString><coordinates>56.333726,25.121693,0.0 58.004428,23.679602,0.0 58.197689,25.075884,0.0 60.628742,24.76139,0.0 62.894366,16.578379,0.0</coordinates></LineString><LineString><coordinates>-13.039272,36.983447,0.0 -11.411929,37.427416,0.0 -9.102751,38.443076,0.0</coordinates></LineString><LineString><coordinates>13.970572,34.455929,0.0 13.18737,32.877627,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>Europe India Gateway EIG</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> europe-india-gateway-eig<br>
+<b>cable_id:</b> 1580<br>
+<b>name:</b> Europe India Gateway EIG<br>
+<b>color:</b> #bd75b1<br>
+<b>length:</b> 15,000 km<br>
+<b>rfs:</b> February 2011<br>
+<b>owners:</b> AT&amp;T,  Airtel (Bharti),  Bharat Sanchar Nigam Ltd. (BSNL),  BT,  Djibouti Telecom,  du,  Gibtelecom,  Libya International Telecommunications Company,  MTN Group,  Omantel,  Portugal Telecom,  Saudi Telecom,  Telecom Egypt,  Telkom South Africa,  Verizon,  Vodafone,  Zajil Telecom<br>
+<b>url:</b> https://www.europeindiagateway.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#redCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>europe-india-gateway-eig</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1580</value>
+				</Data>
+				<Data name='color'>
+					<value>#bd75b1</value>
+				</Data>
+				<Data name='length'>
+					<value>15,000 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>February 2011</value>
+				</Data>
+				<Data name='owners'>
+					<value>AT&amp;T,  Airtel (Bharti),  Bharat Sanchar Nigam Ltd. (BSNL),  BT,  Djibouti Telecom,  du,  Gibtelecom,  Libya International Telecommunications Company,  MTN Group,  Omantel,  Portugal Telecom,  Saudi Telecom,  Telecom Egypt,  Telkom South Africa,  Verizon,  Vodafone,  Zajil Telecom</value>
+				</Data>
+				<Data name='url'>
+					<value>https://www.europeindiagateway.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><LineString><coordinates>7.426729,43.738258,0.0 7.969112,39.423523,0.0 8.82292,38.113818,0.0</coordinates></LineString>
+		</Placemark>
+		
+				<Placemark>
+			<name>SeaMeWe-3</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> seamewe-3<br>
+<b>cable_id:</b> 1031<br>
+<b>name:</b> SeaMeWe-3<br>
+<b>color:</b> #548f51<br>
+<b>length:</b> 39,000 km<br>
+<b>rfs:</b> September 1999<br>
+<b>owners:</b> Orange,  BT,  KDDI,  SingTel,  Telecom Italia Sparkle,  Telekom Malaysia,  OTEGLOBE,  AT&amp;T,  Belgacom,  Communications Authority of Thailand,  China Telecom,  Deutsche Telekom,  Etisalat,  Telecom Egypt,  CTM,  PT Indonesia Satellite Corp.,  Jabatan Telecom Brunei,  KT,  Portugal Telecom,  Maroc Telecom,  PLDT,  Saudi Telecom,  Sri Lanka Telecom,  Turk Telekom,  Tata Communications,  Chunghwa Telecom,  Verizon,  KPN,  Telekom Austria,  SingTel Optus,  Telstra,  Vietnam Telecom International,  Omantel,  PCCW,  Pakistan Telecommunications Company Ltd.,  Cyta,  eircom,  LG Uplus,  Softbank Telecom,  Telkom South Africa,  Rostelecom,  Orange Polska,  SingTel Optus,  Telecom Argentina,  Myanmar Post and Telecommunication (MPT),  Sprint,  Vocus Communications,  Djibouti Telecom,  Embratel,  Vodafone,  Turk Telekom International,  Ukrtelecom<br>
+<b>url:</b> http://www.smw3.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#blueCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>seamewe-3</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1031</value>
+				</Data>
+				<Data name='color'>
+					<value>#548f51</value>
+				</Data>
+				<Data name='length'>
+					<value>39,000 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>September 1999</value>
+				</Data>
+				<Data name='owners'>
+					<value>Orange,  BT,  KDDI,  SingTel,  Telecom Italia Sparkle,  Telekom Malaysia,  OTEGLOBE,  AT&amp;T,  Belgacom,  Communications Authority of Thailand,  China Telecom,  Deutsche Telekom,  Etisalat,  Telecom Egypt,  CTM,  PT Indonesia Satellite Corp.,  Jabatan Telecom Brunei,  KT,  Portugal Telecom,  Maroc Telecom,  PLDT,  Saudi Telecom,  Sri Lanka Telecom,  Turk Telekom,  Tata Communications,  Chunghwa Telecom,  Verizon,  KPN,  Telekom Austria,  SingTel Optus,  Telstra,  Vietnam Telecom International,  Omantel,  PCCW,  Pakistan Telecommunications Company Ltd.,  Cyta,  eircom,  LG Uplus,  Softbank Telecom,  Telkom South Africa,  Rostelecom,  Orange Polska,  SingTel Optus,  Telecom Argentina,  Myanmar Post and Telecommunication (MPT),  Sprint,  Vocus Communications,  Djibouti Telecom,  Embratel,  Vodafone,  Turk Telekom International,  Ukrtelecom</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.smw3.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>32.542825,29.95909,0.0 31.997805,30.485214,0.0 30.69722,31.085315,0.0 29.89351,31.191469,0.0 29.213042,33.024311,0.0 22.731796,33.95487,0.0 13.444108,35.270584,0.0 12.051238,36.466301,0.0 12.591374,37.650584,0.0 10.812176,37.793179,0.0 2.354369,37.748792,0.0 -2.131614,35.941571,0.0 -5.394063,35.958331,0.0 -9.395427,36.22821,0.0 -9.102751,38.443076,0.0</coordinates></LineString><LineString><coordinates>114.936809,21.250442,0.0 114.183978,22.24962,0.0</coordinates></LineString><LineString><coordinates>100.066117,6.613517,0.0 99.835062,6.563944,0.0 99.728617,6.484288,0.0 99.596683,6.429753,0.0 98.124712,5.466328,0.0</coordinates></LineString><LineString><coordinates>127.175961,28.987182,0.0 121.472547,31.247507,0.0</coordinates></LineString><LineString><coordinates>43.147993,11.594869,0.0 43.846332,11.709929,0.0</coordinates></LineString><LineString><coordinates>29.89351,31.191469,0.0 30.646439,31.003403,0.0 31.947024,30.402706,0.0 32.529934,29.972542,0.0 32.853371,28.96121,0.0 34.514894,26.790091,0.0 37.512645,22.115696,0.0 42.359322,14.210357,0.0 43.105805,12.95348,0.0 43.846332,11.709929,0.0 44.093598,11.29356,0.0 44.863226,11.347567,0.0 62.691436,16.091911,0.0 68.103737,17.511473,0.0 70.291821,18.082107,0.0 72.875902,19.076074,0.0 72.762425,18.768083,0.0 71.884301,17.147157,0.0 75.434493,7.028623,0.0 82.662516,3.91534,0.0 95.40069,7.687794,0.0 98.124712,5.466328,0.0 103.009962,1.46335,0.0 103.501759,1.253351,0.0</coordinates></LineString><LineString><coordinates>-9.102751,38.443076,0.0 -10.255876,38.600085,0.0 -10.548258,38.886475,0.0 -10.548258,45.105648,0.0 -4.338546,47.81102,0.0 -5.4321,48.803515,0.0 -5.172969,50.022544,0.0 0.354371,49.974899,0.0 2.273998,51.518157,0.0 4.021751,53.827138,0.0 7.201827,53.595599,0.0</coordinates></LineString><LineString><coordinates>38.258934,20.913026,0.0 39.182761,21.481532,0.0</coordinates></LineString><LineString><coordinates>58.591146,23.615104,0.0 59.33304,23.801265,0.0</coordinates></LineString><LineString><coordinates>32.466653,34.766572,0.0 29.213042,33.024311,0.0 28.551031,36.222774,0.0 28.25357,36.855249,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>SeaMeWe-3</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> seamewe-3<br>
+<b>cable_id:</b> 1031<br>
+<b>name:</b> SeaMeWe-3<br>
+<b>color:</b> #548f51<br>
+<b>length:</b> 39,000 km<br>
+<b>rfs:</b> September 1999<br>
+<b>owners:</b> Orange,  BT,  KDDI,  SingTel,  Telecom Italia Sparkle,  Telekom Malaysia,  OTEGLOBE,  AT&amp;T,  Belgacom,  Communications Authority of Thailand,  China Telecom,  Deutsche Telekom,  Etisalat,  Telecom Egypt,  CTM,  PT Indonesia Satellite Corp.,  Jabatan Telecom Brunei,  KT,  Portugal Telecom,  Maroc Telecom,  PLDT,  Saudi Telecom,  Sri Lanka Telecom,  Turk Telekom,  Tata Communications,  Chunghwa Telecom,  Verizon,  KPN,  Telekom Austria,  SingTel Optus,  Telstra,  Vietnam Telecom International,  Omantel,  PCCW,  Pakistan Telecommunications Company Ltd.,  Cyta,  eircom,  LG Uplus,  Softbank Telecom,  Telkom South Africa,  Rostelecom,  Orange Polska,  SingTel Optus,  Telecom Argentina,  Myanmar Post and Telecommunication (MPT),  Sprint,  Vocus Communications,  Djibouti Telecom,  Embratel,  Vodafone,  Turk Telekom International,  Ukrtelecom<br>
+<b>url:</b> http://www.smw3.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#blueCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>seamewe-3</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1031</value>
+				</Data>
+				<Data name='color'>
+					<value>#548f51</value>
+				</Data>
+				<Data name='length'>
+					<value>39,000 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>September 1999</value>
+				</Data>
+				<Data name='owners'>
+					<value>Orange,  BT,  KDDI,  SingTel,  Telecom Italia Sparkle,  Telekom Malaysia,  OTEGLOBE,  AT&amp;T,  Belgacom,  Communications Authority of Thailand,  China Telecom,  Deutsche Telekom,  Etisalat,  Telecom Egypt,  CTM,  PT Indonesia Satellite Corp.,  Jabatan Telecom Brunei,  KT,  Portugal Telecom,  Maroc Telecom,  PLDT,  Saudi Telecom,  Sri Lanka Telecom,  Turk Telekom,  Tata Communications,  Chunghwa Telecom,  Verizon,  KPN,  Telekom Austria,  SingTel Optus,  Telstra,  Vietnam Telecom International,  Omantel,  PCCW,  Pakistan Telecommunications Company Ltd.,  Cyta,  eircom,  LG Uplus,  Softbank Telecom,  Telkom South Africa,  Rostelecom,  Orange Polska,  SingTel Optus,  Telecom Argentina,  Myanmar Post and Telecommunication (MPT),  Sprint,  Vocus Communications,  Djibouti Telecom,  Embratel,  Vodafone,  Turk Telekom International,  Ukrtelecom</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.smw3.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>68.103737,17.511473,0.0 67.028542,24.889728,0.0</coordinates></LineString><LineString><coordinates>-5.391816,35.565921,0.0 -4.525753,35.950742,0.0</coordinates></LineString><LineString><coordinates>22.731796,33.95487,0.0 23.105722,35.495826,0.0 23.477304,35.779641,0.0 23.855428,35.779641,0.0 24.012167,35.512044,0.0</coordinates></LineString><LineString><coordinates>2.912767,51.231222,0.0 2.21228,51.477515,0.0</coordinates></LineString><LineString><coordinates>56.333726,25.121693,0.0 60.739387,23.179074,0.0 62.691436,16.091911,0.0</coordinates></LineString><LineString><coordinates>120.775282,21.116861,0.0 120.662196,22.249259,0.0</coordinates></LineString><LineString><coordinates>113.561127,22.156493,0.0 114.936809,21.250442,0.0 116.741105,20.053564,0.0</coordinates></LineString><LineString><coordinates>103.501759,1.253351,0.0 103.646095,1.338583,0.0 103.714454,0.9951,0.0</coordinates></LineString><LineString><coordinates>103.714454,0.9951,0.0 103.796485,0.940714,0.0</coordinates></LineString><LineString><coordinates>103.796485,0.940714,0.0 103.945899,0.879198,0.0 104.187696,0.563208,0.0 104.463184,0.492313,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>SeaMeWe-3</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> seamewe-3<br>
+<b>cable_id:</b> 1031<br>
+<b>name:</b> SeaMeWe-3<br>
+<b>color:</b> #548f51<br>
+<b>length:</b> 39,000 km<br>
+<b>rfs:</b> September 1999<br>
+<b>owners:</b> Orange,  BT,  KDDI,  SingTel,  Telecom Italia Sparkle,  Telekom Malaysia,  OTEGLOBE,  AT&amp;T,  Belgacom,  Communications Authority of Thailand,  China Telecom,  Deutsche Telekom,  Etisalat,  Telecom Egypt,  CTM,  PT Indonesia Satellite Corp.,  Jabatan Telecom Brunei,  KT,  Portugal Telecom,  Maroc Telecom,  PLDT,  Saudi Telecom,  Sri Lanka Telecom,  Turk Telekom,  Tata Communications,  Chunghwa Telecom,  Verizon,  KPN,  Telekom Austria,  SingTel Optus,  Telstra,  Vietnam Telecom International,  Omantel,  PCCW,  Pakistan Telecommunications Company Ltd.,  Cyta,  eircom,  LG Uplus,  Softbank Telecom,  Telkom South Africa,  Rostelecom,  Orange Polska,  SingTel Optus,  Telecom Argentina,  Myanmar Post and Telecommunication (MPT),  Sprint,  Vocus Communications,  Djibouti Telecom,  Embratel,  Vodafone,  Turk Telekom International,  Ukrtelecom<br>
+<b>url:</b> http://www.smw3.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#blueCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>seamewe-3</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1031</value>
+				</Data>
+				<Data name='color'>
+					<value>#548f51</value>
+				</Data>
+				<Data name='length'>
+					<value>39,000 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>September 1999</value>
+				</Data>
+				<Data name='owners'>
+					<value>Orange,  BT,  KDDI,  SingTel,  Telecom Italia Sparkle,  Telekom Malaysia,  OTEGLOBE,  AT&amp;T,  Belgacom,  Communications Authority of Thailand,  China Telecom,  Deutsche Telekom,  Etisalat,  Telecom Egypt,  CTM,  PT Indonesia Satellite Corp.,  Jabatan Telecom Brunei,  KT,  Portugal Telecom,  Maroc Telecom,  PLDT,  Saudi Telecom,  Sri Lanka Telecom,  Turk Telekom,  Tata Communications,  Chunghwa Telecom,  Verizon,  KPN,  Telekom Austria,  SingTel Optus,  Telstra,  Vietnam Telecom International,  Omantel,  PCCW,  Pakistan Telecommunications Company Ltd.,  Cyta,  eircom,  LG Uplus,  Softbank Telecom,  Telkom South Africa,  Rostelecom,  Orange Polska,  SingTel Optus,  Telecom Argentina,  Myanmar Post and Telecommunication (MPT),  Sprint,  Vocus Communications,  Djibouti Telecom,  Embratel,  Vodafone,  Turk Telekom International,  Ukrtelecom</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.smw3.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>104.463184,0.492313,0.0 104.768457,0.127768,0.0</coordinates></LineString><LineString><coordinates>104.768457,0.127768,0.0 106.999901,-2.403946,0.0 106.999901,-4.574684,0.0 106.516112,-5.155978,0.0</coordinates></LineString><LineString><coordinates>106.516112,-5.155978,0.0 105.839452,-5.859351,0.0 102.797951,-7.886849,0.0 112.097358,-31.933551,0.0 115.857316,-31.953439,0.0</coordinates></LineString><LineString><coordinates>127.680843,26.212414,0.0 126.065805,26.162726,0.0</coordinates></LineString><LineString><coordinates>125.059849,23.542159,0.0 121.801453,24.863504,0.0</coordinates></LineString><LineString><coordinates>114.183978,22.24962,0.0 118.628115,21.437452,0.0 114.183978,22.24962,0.0</coordinates></LineString><LineString><coordinates>106.833397,-6.128962,0.0 106.516112,-5.155978,0.0</coordinates></LineString><LineString><coordinates>121.066004,13.762423,0.0 114.970696,13.603302,0.0</coordinates></LineString><LineString><coordinates>114.87011,13.230368,0.0 108.192478,16.043395,0.0</coordinates></LineString><LineString><coordinates>98.675981,3.752034,0.0 99.229984,4.562194,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>SeaMeWe-3</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> seamewe-3<br>
+<b>cable_id:</b> 1031<br>
+<b>name:</b> SeaMeWe-3<br>
+<b>color:</b> #548f51<br>
+<b>length:</b> 39,000 km<br>
+<b>rfs:</b> September 1999<br>
+<b>owners:</b> Orange,  BT,  KDDI,  SingTel,  Telecom Italia Sparkle,  Telekom Malaysia,  OTEGLOBE,  AT&amp;T,  Belgacom,  Communications Authority of Thailand,  China Telecom,  Deutsche Telekom,  Etisalat,  Telecom Egypt,  CTM,  PT Indonesia Satellite Corp.,  Jabatan Telecom Brunei,  KT,  Portugal Telecom,  Maroc Telecom,  PLDT,  Saudi Telecom,  Sri Lanka Telecom,  Turk Telekom,  Tata Communications,  Chunghwa Telecom,  Verizon,  KPN,  Telekom Austria,  SingTel Optus,  Telstra,  Vietnam Telecom International,  Omantel,  PCCW,  Pakistan Telecommunications Company Ltd.,  Cyta,  eircom,  LG Uplus,  Softbank Telecom,  Telkom South Africa,  Rostelecom,  Orange Polska,  SingTel Optus,  Telecom Argentina,  Myanmar Post and Telecommunication (MPT),  Sprint,  Vocus Communications,  Djibouti Telecom,  Embratel,  Vodafone,  Turk Telekom International,  Ukrtelecom<br>
+<b>url:</b> http://www.smw3.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#blueCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>seamewe-3</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1031</value>
+				</Data>
+				<Data name='color'>
+					<value>#548f51</value>
+				</Data>
+				<Data name='length'>
+					<value>39,000 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>September 1999</value>
+				</Data>
+				<Data name='owners'>
+					<value>Orange,  BT,  KDDI,  SingTel,  Telecom Italia Sparkle,  Telekom Malaysia,  OTEGLOBE,  AT&amp;T,  Belgacom,  Communications Authority of Thailand,  China Telecom,  Deutsche Telekom,  Etisalat,  Telecom Egypt,  CTM,  PT Indonesia Satellite Corp.,  Jabatan Telecom Brunei,  KT,  Portugal Telecom,  Maroc Telecom,  PLDT,  Saudi Telecom,  Sri Lanka Telecom,  Turk Telekom,  Tata Communications,  Chunghwa Telecom,  Verizon,  KPN,  Telekom Austria,  SingTel Optus,  Telstra,  Vietnam Telecom International,  Omantel,  PCCW,  Pakistan Telecommunications Company Ltd.,  Cyta,  eircom,  LG Uplus,  Softbank Telecom,  Telkom South Africa,  Rostelecom,  Orange Polska,  SingTel Optus,  Telecom Argentina,  Myanmar Post and Telecommunication (MPT),  Sprint,  Vocus Communications,  Djibouti Telecom,  Embratel,  Vodafone,  Turk Telekom International,  Ukrtelecom</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.smw3.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>76.269551,9.938386,0.0 74.700314,9.150912,0.0</coordinates></LineString><LineString><coordinates>112.799897,5.45194,0.0 114.885637,4.92676,0.0</coordinates></LineString><LineString><coordinates>100.362991,5.353843,0.0 98.763969,4.943592,0.0</coordinates></LineString><LineString><coordinates>79.866815,6.83309,0.0 78.855975,5.556923,0.0</coordinates></LineString><LineString><coordinates>95.682135,16.282762,0.0 95.40069,7.687794,0.0</coordinates></LineString><LineString><coordinates>104.768457,0.127768,0.0 106.950682,1.204339,0.0</coordinates></LineString><LineString><coordinates>106.950682,1.204339,0.0 112.387006,3.883675,0.0 112.799897,5.45194,0.0</coordinates></LineString><LineString><coordinates>112.799897,5.45194,0.0 114.87011,13.230368,0.0</coordinates></LineString><LineString><coordinates>114.87011,13.230368,0.0 114.970696,13.603302,0.0</coordinates></LineString><LineString><coordinates>114.970696,13.603302,0.0 116.741105,20.053564,0.0</coordinates></LineString></MultiGeometry></Placemark>
+		
+		<Placemark>
+			<name>SeaMeWe-3</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> seamewe-3<br>
+<b>cable_id:</b> 1031<br>
+<b>name:</b> SeaMeWe-3<br>
+<b>color:</b> #548f51<br>
+<b>length:</b> 39,000 km<br>
+<b>rfs:</b> September 1999<br>
+<b>owners:</b> Orange,  BT,  KDDI,  SingTel,  Telecom Italia Sparkle,  Telekom Malaysia,  OTEGLOBE,  AT&amp;T,  Belgacom,  Communications Authority of Thailand,  China Telecom,  Deutsche Telekom,  Etisalat,  Telecom Egypt,  CTM,  PT Indonesia Satellite Corp.,  Jabatan Telecom Brunei,  KT,  Portugal Telecom,  Maroc Telecom,  PLDT,  Saudi Telecom,  Sri Lanka Telecom,  Turk Telekom,  Tata Communications,  Chunghwa Telecom,  Verizon,  KPN,  Telekom Austria,  SingTel Optus,  Telstra,  Vietnam Telecom International,  Omantel,  PCCW,  Pakistan Telecommunications Company Ltd.,  Cyta,  eircom,  LG Uplus,  Softbank Telecom,  Telkom South Africa,  Rostelecom,  Orange Polska,  SingTel Optus,  Telecom Argentina,  Myanmar Post and Telecommunication (MPT),  Sprint,  Vocus Communications,  Djibouti Telecom,  Embratel,  Vodafone,  Turk Telekom International,  Ukrtelecom<br>
+<b>url:</b> http://www.smw3.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#blueCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>seamewe-3</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1031</value>
+				</Data>
+				<Data name='color'>
+					<value>#548f51</value>
+				</Data>
+				<Data name='length'>
+					<value>39,000 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>September 1999</value>
+				</Data>
+				<Data name='owners'>
+					<value>Orange,  BT,  KDDI,  SingTel,  Telecom Italia Sparkle,  Telekom Malaysia,  OTEGLOBE,  AT&amp;T,  Belgacom,  Communications Authority of Thailand,  China Telecom,  Deutsche Telekom,  Etisalat,  Telecom Egypt,  CTM,  PT Indonesia Satellite Corp.,  Jabatan Telecom Brunei,  KT,  Portugal Telecom,  Maroc Telecom,  PLDT,  Saudi Telecom,  Sri Lanka Telecom,  Turk Telekom,  Tata Communications,  Chunghwa Telecom,  Verizon,  KPN,  Telekom Austria,  SingTel Optus,  Telstra,  Vietnam Telecom International,  Omantel,  PCCW,  Pakistan Telecommunications Company Ltd.,  Cyta,  eircom,  LG Uplus,  Softbank Telecom,  Telkom South Africa,  Rostelecom,  Orange Polska,  SingTel Optus,  Telecom Argentina,  Myanmar Post and Telecommunication (MPT),  Sprint,  Vocus Communications,  Djibouti Telecom,  Embratel,  Vodafone,  Turk Telekom International,  Ukrtelecom</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.smw3.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>116.741105,20.053564,0.0 116.677531,23.355003,0.0 118.628115,21.437452,0.0 120.775282,21.116861,0.0</coordinates></LineString><LineString><coordinates>120.775282,21.116861,0.0 123.999693,20.72234,0.0 125.059849,23.542159,0.0</coordinates></LineString><LineString><coordinates>125.059849,23.542159,0.0 126.065805,26.162726,0.0</coordinates></LineString><LineString><coordinates>126.065805,26.162726,0.0 127.175961,28.987182,0.0</coordinates></LineString><LineString><coordinates>127.175961,28.987182,0.0 128.558772,32.38467,0.0 128.620784,34.88073,0.0</coordinates></LineString><LineString><coordinates>106.950682,1.204339,0.0 103.850684,2.295707,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+				<Placemark>
+			<name>SeaMeWe-5</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> seamewe-5<br>
+<b>cable_id:</b> 1559<br>
+<b>name:</b> SeaMeWe-5<br>
+<b>color:</b> #9ea0a2<br>
+<b>length:</b> 20,000 km<br>
+<b>rfs:</b> November 2016<br>
+<b>owners:</b> Telekom Malaysia,  Bangladesh Telegraph and Telephone Board (BTTB),  China Mobile,  China Telecom,  Orange,  Myanmar Post and Telecommunication (MPT),  Saudi Telecom,  Sri Lanka Telecom,  Telkom Indonesia,  TOT,  SingTel,  Telecom Italia Sparkle,  TeleYemen,  China Unicom,  du,  Turk Telekom International,  TransWorld Associates (Pvt.) Limited,  Chunghwa Telecom,  Ooredoo<br>
+<b>url:</b> http://www.seamewe5.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#greenCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>seamewe-5</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1559</value>
+				</Data>
+				<Data name='color'>
+					<value>#9ea0a2</value>
+				</Data>
+				<Data name='length'>
+					<value>20,000 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>November 2016</value>
+				</Data>
+				<Data name='owners'>
+					<value>Telekom Malaysia,  Bangladesh Telegraph and Telephone Board (BTTB),  China Mobile,  China Telecom,  Orange,  Myanmar Post and Telecommunication (MPT),  Saudi Telecom,  Sri Lanka Telecom,  Telkom Indonesia,  TOT,  SingTel,  Telecom Italia Sparkle,  TeleYemen,  China Unicom,  du,  Turk Telekom International,  TransWorld Associates (Pvt.) Limited,  Chunghwa Telecom,  Ooredoo</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.seamewe5.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>101.460061,2.547825,0.0 101.328518,2.152456,0.0 101.316506,1.893828,0.0 101.447659,1.665521,0.0</coordinates></LineString><LineString><coordinates>98.987895,4.368643,0.0 98.675981,3.752034,0.0</coordinates></LineString><LineString><coordinates>27.553375,33.872693,0.0 28.400835,36.246641,0.0 28.25357,36.855249,0.0</coordinates></LineString><LineString><coordinates>16.02936,35.537954,0.0 15.906508,37.19269,0.0 15.067446,37.513448,0.0</coordinates></LineString><LineString><coordinates>94.391218,16.858028,0.0 90.051378,16.910078,0.0</coordinates></LineString><LineString><coordinates>103.646095,1.338583,0.0 103.555177,1.218496,0.0</coordinates></LineString><LineString><coordinates>102.2209,2.273264,0.0 102.181154,2.016218,0.0</coordinates></LineString><LineString><coordinates>97.963286,5.1221,0.0 98.541899,5.501226,0.0 99.64473,6.35716,0.0 99.679691,6.430044,0.0 99.775687,6.464881,0.0 99.853128,6.535615,0.0 100.066117,6.613517,0.0</coordinates></LineString><LineString><coordinates>90.116612,21.820815,0.0 90.051378,16.910078,0.0 89.935362,7.882757,0.0</coordinates></LineString><LineString><coordinates>67.028542,24.889728,0.0 60.142121,23.295459,0.0</coordinates></LineString></MultiGeometry></Placemark>
+		
+		<Placemark>
+			<name>SeaMeWe-5</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> seamewe-5<br>
+<b>cable_id:</b> 1559<br>
+<b>name:</b> SeaMeWe-5<br>
+<b>color:</b> #9ea0a2<br>
+<b>length:</b> 20,000 km<br>
+<b>rfs:</b> November 2016<br>
+<b>owners:</b> Telekom Malaysia,  Bangladesh Telegraph and Telephone Board (BTTB),  China Mobile,  China Telecom,  Orange,  Myanmar Post and Telecommunication (MPT),  Saudi Telecom,  Sri Lanka Telecom,  Telkom Indonesia,  TOT,  SingTel,  Telecom Italia Sparkle,  TeleYemen,  China Unicom,  du,  Turk Telekom International,  TransWorld Associates (Pvt.) Limited,  Chunghwa Telecom,  Ooredoo<br>
+<b>url:</b> http://www.seamewe5.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#greenCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>seamewe-5</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1559</value>
+				</Data>
+				<Data name='color'>
+					<value>#9ea0a2</value>
+				</Data>
+				<Data name='length'>
+					<value>20,000 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>November 2016</value>
+				</Data>
+				<Data name='owners'>
+					<value>Telekom Malaysia,  Bangladesh Telegraph and Telephone Board (BTTB),  China Mobile,  China Telecom,  Orange,  Myanmar Post and Telecommunication (MPT),  Saudi Telecom,  Sri Lanka Telecom,  Telkom Indonesia,  TOT,  SingTel,  Telecom Italia Sparkle,  TeleYemen,  China Unicom,  du,  Turk Telekom International,  TransWorld Associates (Pvt.) Limited,  Chunghwa Telecom,  Ooredoo</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.seamewe5.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>58.004428,23.679602,0.0 58.402181,24.133134,0.0</coordinates></LineString><LineString><coordinates>62.558624,14.580487,0.0 60.142121,23.295459,0.0 58.402181,24.133134,0.0 56.333726,25.121693,0.0</coordinates></LineString><LineString><coordinates>38.106981,24.070645,0.0 37.492626,23.743621,0.0</coordinates></LineString><LineString><coordinates>43.147993,11.594869,0.0 44.513519,12.256156,0.0</coordinates></LineString><LineString><coordinates>43.00854,14.685653,0.0 42.699653,14.713708,0.0</coordinates></LineString><LineString><coordinates>29.700932,31.072267,0.0 30.087065,30.096652,0.0 31.38765,29.490198,0.0 32.653176,29.113616,0.0</coordinates></LineString><LineString><coordinates>5.930343,43.125293,0.0 7.837569,39.380209,0.0 8.512568,38.226064,0.0 10.000067,38.222228,0.0 11.14743,37.852345,0.0 13.724186,35.805306,0.0 14.487955,35.695379,0.0 15.171938,35.660555,0.0 16.02936,35.537954,0.0 27.553375,33.872693,0.0 29.700932,31.072267,0.0 30.137846,30.179417,0.0 31.438431,29.573552,0.0 32.653176,29.113616,0.0 33.950636,27.813265,0.0 34.153663,27.696943,0.0 35.239893,27.23476,0.0 37.492626,23.743621,0.0 38.326414,22.391001,0.0 38.633641,21.769765,0.0 39.006883,21.173786,0.0 39.682761,20.226482,0.0 42.357466,15.892329,0.0 42.699653,14.713708,0.0 42.907954,13.99318,0.0 43.819086,12.428161,0.0 44.362543,12.493384,0.0 44.513519,12.256156,0.0 44.740961,11.898434,0.0 44.854046,11.895758,0.0 57.972885,15.412095,0.0 62.558624,14.580487,0.0 70.385767,12.069142,0.0 76.384688,7.491966,0.0 79.745916,5.940821,0.0 80.539861,5.940821,0.0</coordinates></LineString><LineString><coordinates>80.539861,5.940821,0.0 81.86193,5.513571,0.0 89.935362,7.882757,0.0 93.572957,7.642789,0.0 95.706354,6.7784,0.0 97.963286,5.1221,0.0 98.987895,4.368643,0.0 101.460061,2.547825,0.0 102.181154,2.016218,0.0 103.023439,1.395012,0.0 103.464063,1.237242,0.0 103.555177,1.218496,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>Asia Africa Europe-1 AAE-1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> asia-africa-europe-1-aae-1<br>
+<b>cable_id:</b> 1739<br>
+<b>name:</b> Asia Africa Europe-1 AAE-1<br>
+<b>color:</b> #b3b5b7<br>
+<b>length:</b> 25,000 km<br>
+<b>rfs:</b> Q4 2016<br>
+<b>owners:</b> China Unicom,  Telecom Egypt,  Etisalat,  Omantel,  Djibouti Telecom,  OTEGLOBE,  Pakistan Telecommunications Company Ltd.,  PCCW,  Ooredoo,  Mobily,  Viettel Corporation,  TeleYemen,  Chuan Wei,  Retelit,  Reliance Jio Infocom<br>
+<b>url:</b> http://www.aae1.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#yellowCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>asia-africa-europe-1-aae-1</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1739</value>
+				</Data>
+				<Data name='color'>
+					<value>#b3b5b7</value>
+				</Data>
+				<Data name='length'>
+					<value>25,000 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>Q4 2016</value>
+				</Data>
+				<Data name='owners'>
+					<value>China Unicom,  Telecom Egypt,  Etisalat,  Omantel,  Djibouti Telecom,  OTEGLOBE,  Pakistan Telecommunications Company Ltd.,  PCCW,  Ooredoo,  Mobily,  Viettel Corporation,  TeleYemen,  Chuan Wei,  Retelit,  Reliance Jio Infocom</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.aae1.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>107.079198,10.342134,0.0 109.716989,9.301092,0.0</coordinates></LineString><LineString><coordinates>94.391218,16.858028,0.0 92.927157,16.396529,0.0 92.011825,12.203187,0.0 92.011825,5.607657,0.0</coordinates></LineString><LineString><coordinates>100.066117,6.613517,0.0 100.59971,7.075919,0.0</coordinates></LineString><LineString><coordinates>18.051331,35.413334,0.0 18.957776,39.484751,0.0 18.957776,40.643526,0.0 16.868812,41.125713,0.0</coordinates></LineString><LineString><coordinates>45.033538,12.800874,0.0 45.250433,10.925684,0.0</coordinates></LineString><LineString><coordinates>22.722128,34.738008,0.0 22.91207,35.527225,0.0 23.423202,35.823599,0.0 23.855428,35.823599,0.0 24.012167,35.512044,0.0</coordinates></LineString><LineString><coordinates>67.028542,24.889728,0.0 61.556964,23.384138,0.0</coordinates></LineString><LineString><coordinates>103.506739,10.630402,0.0 103.353907,7.290239,0.0</coordinates></LineString><LineString><coordinates>97.563384,5.336925,0.0 98.434184,5.907212,0.0 99.548637,6.502335,0.0 99.669926,6.484773,0.0 99.836429,6.588101,0.0 100.066117,6.613517,0.0 100.294925,6.917731,0.0 100.59971,7.075919,0.0 103.353907,7.290239,0.0 109.199997,7.744889,0.0 111.441304,14.435838,0.0 114.260247,22.208037,0.0</coordinates></LineString><LineString><coordinates>100.397073,5.019476,0.0 98.671879,4.535131,0.0</coordinates></LineString></MultiGeometry></Placemark>
+		
+		<Placemark>
+			<name>Asia Africa Europe-1 AAE-1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> asia-africa-europe-1-aae-1<br>
+<b>cable_id:</b> 1739<br>
+<b>name:</b> Asia Africa Europe-1 AAE-1<br>
+<b>color:</b> #b3b5b7<br>
+<b>length:</b> 25,000 km<br>
+<b>rfs:</b> Q4 2016<br>
+<b>owners:</b> China Unicom,  Telecom Egypt,  Etisalat,  Omantel,  Djibouti Telecom,  OTEGLOBE,  Pakistan Telecommunications Company Ltd.,  PCCW,  Ooredoo,  Mobily,  Viettel Corporation,  TeleYemen,  Chuan Wei,  Retelit,  Reliance Jio Infocom<br>
+<b>url:</b> http://www.aae1.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#yellowCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>asia-africa-europe-1-aae-1</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1739</value>
+				</Data>
+				<Data name='color'>
+					<value>#b3b5b7</value>
+				</Data>
+				<Data name='length'>
+					<value>25,000 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>Q4 2016</value>
+				</Data>
+				<Data name='owners'>
+					<value>China Unicom,  Telecom Egypt,  Etisalat,  Omantel,  Djibouti Telecom,  OTEGLOBE,  Pakistan Telecommunications Company Ltd.,  PCCW,  Ooredoo,  Mobily,  Viettel Corporation,  TeleYemen,  Chuan Wei,  Retelit,  Reliance Jio Infocom</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.aae1.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>58.606087,23.576086,0.0 59.324837,24.129569,0.0</coordinates></LineString><LineString><coordinates>63.671904,15.666034,0.0 61.556964,23.384138,0.0 59.324837,24.129569,0.0 56.333726,25.121693,0.0 56.963022,25.505266,0.0 56.584311,26.660301,0.0 56.175816,26.660301,0.0 55.257457,26.102407,0.0 53.833435,26.174208,0.0 52.40658,26.115122,0.0 51.519276,25.294606,0.0</coordinates></LineString><LineString><coordinates>72.875902,19.076074,0.0 70.84309,17.422418,0.0 70.510571,17.341337,0.0</coordinates></LineString><LineString><coordinates>39.182761,21.481532,0.0 37.841063,20.844958,0.0</coordinates></LineString><LineString><coordinates>43.147993,11.594869,0.0 43.457368,11.729435,0.0</coordinates></LineString><LineString><coordinates>5.372531,43.293627,0.0 7.531319,38.343804,0.0 10.000067,38.343804,0.0 11.208758,37.901062,0.0 13.753678,35.880985,0.0 14.517447,35.771163,0.0 15.207192,35.821778,0.0 18.051331,35.413334,0.0 22.722128,34.738008,0.0 25.301912,34.362631,0.0 29.700932,31.072267,0.0 30.392045,30.59237,0.0 31.69263,29.989037,0.0 32.653176,29.113616,0.0 34.003566,26.865036,0.0 41.335689,15.154545,0.0 42.42104,13.905796,0.0 43.4935,12.131877,0.0 43.354633,11.90369,0.0 43.457368,11.729435,0.0 43.830121,11.095833,0.0 45.250433,10.925684,0.0 52.371326,12.775828,0.0 61.833136,15.213167,0.0 70.510571,17.341337,0.0 73.910959,6.452266,0.0 81.975309,2.65894,0.0 95.694538,6.686363,0.0 97.563384,5.336925,0.0 98.671879,4.535131,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>FALCON</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> falcon<br>
+<b>cable_id:</b> 1346<br>
+<b>name:</b> FALCON<br>
+<b>color:</b> #f89635<br>
+<b>length:</b> 10,300 km<br>
+<b>rfs:</b> September 2006<br>
+<b>owners:</b> Global Cloud Xchange<br>
+<b>url:</b> http://www.globalcloudxchange.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#pinkCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>falcon</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1346</value>
+				</Data>
+				<Data name='color'>
+					<value>#f89635</value>
+				</Data>
+				<Data name='length'>
+					<value>10,300 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>September 2006</value>
+				</Data>
+				<Data name='owners'>
+					<value>Global Cloud Xchange</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.globalcloudxchange.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>48.531778,29.923634,0.0 48.60463,29.023907,0.0</coordinates></LineString><LineString><coordinates>48.531778,29.923634,0.0 48.318692,29.174685,0.0</coordinates></LineString><LineString><coordinates>60.627375,25.258665,0.0 59.748176,23.710364,0.0</coordinates></LineString><LineString><coordinates>52.182459,16.213008,0.0 52.432361,16.210382,0.0 53.028259,13.813353,0.0</coordinates></LineString><LineString><coordinates>43.00854,14.685653,0.0 41.908052,15.48335,0.0</coordinates></LineString><LineString><coordinates>39.182761,21.481532,0.0 38.828367,20.515318,0.0 37.219677,19.615564,0.0</coordinates></LineString><LineString><coordinates>72.875902,19.076074,0.0 72.609007,19.031859,0.0 70.393481,18.400605,0.0 62.269073,16.26992,0.0 60.286848,23.507597,0.0 58.936849,24.015083,0.0 58.176205,23.684879,0.0 57.278647,25.520249,0.0 56.743003,26.973182,0.0 56.274155,27.187254,0.0 56.274155,26.768382,0.0 55.257457,26.151156,0.0 53.849157,26.204616,0.0 48.462833,29.09911,0.0 47.974845,29.374101,0.0 49.480215,28.110157,0.0 50.214199,26.285373,0.0 50.653456,26.734983,0.0 50.576015,26.229497,0.0 51.587635,26.259102,0.0 51.519276,25.294606,0.0 52.600135,25.968418,0.0 55.149449,25.924249,0.0 55.308531,25.269351,0.0 55.365562,25.924249,0.0 56.165171,26.410864,0.0 56.201402,26.410864,0.0 56.246812,26.181307,0.0 56.360484,26.408852,0.0 56.468491,26.408852,0.0 58.176205,23.684879,0.0 58.901986,23.875137,0.0 59.611946,23.581546,0.0 61.629523,16.104671,0.0 53.028259,13.813353,0.0</coordinates></LineString><LineString><coordinates>53.028259,13.813353,0.0 44.30268,11.465216,0.0 43.877778,12.182092,0.0 43.648676,12.207291,0.0 42.612935,13.971384,0.0 41.908052,15.48335,0.0 38.828367,20.515318,0.0 34.741065,26.948549,0.0 33.769289,27.878976,0.0 32.904055,29.020492,0.0 32.540676,29.974234,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>Gulf2Africa G2A</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> gulf2africa-g2a<br>
+<b>cable_id:</b> 1850<br>
+<b>name:</b> Gulf2Africa G2A<br>
+<b>color:</b> #b3b5b7<br>
+<b>length:</b> 1,500 km<br>
+<b>rfs:</b> Q4 2016<br>
+<b>owners:</b> Omantel,  Golis Telecommunications,  Telesom,  Ethio Telecom<br>
+<b>url:</b> <br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#lightblueCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>gulf2africa-g2a</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1850</value>
+				</Data>
+				<Data name='color'>
+					<value>#b3b5b7</value>
+				</Data>
+				<Data name='length'>
+					<value>1,500 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>Q4 2016</value>
+				</Data>
+				<Data name='owners'>
+					<value>Omantel,  Golis Telecommunications,  Telesom,  Ethio Telecom</value>
+				</Data>
+				<Data name='url'>
+					<value></value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>49.18793,11.275556,0.0 49.18793,13.206125,0.0</coordinates></LineString><LineString><coordinates>54.148083,17.095826,0.0 54.148083,16.617311,0.0 51.355214,14.136883,0.0 49.18793,13.206125,0.0 46.264104,12.419673,0.0 45.010882,10.926451,0.0 45.010882,10.435116,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>Tata TGN Gulf</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> tata-tgn-gulf<br>
+<b>cable_id:</b> 1631<br>
+<b>name:</b> Tata TGN Gulf<br>
+<b>color:</b> #4fc1af<br>
+<b>length:</b> 4,031 km<br>
+<b>rfs:</b> February 2012<br>
+<b>owners:</b> Tata Communications<br>
+<b>url:</b> http://www.tatacommunications.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#lightgreenCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>tata-tgn-gulf</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1631</value>
+				</Data>
+				<Data name='color'>
+					<value>#4fc1af</value>
+				</Data>
+				<Data name='length'>
+					<value>4,031 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>February 2012</value>
+				</Data>
+				<Data name='owners'>
+					<value>Tata Communications</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.tatacommunications.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>63.388018,15.747071,0.0 61.352667,23.257333,0.0 58.854525,24.196216,0.0 57.252084,24.753586,0.0 56.855014,25.566419,0.0 56.539585,26.563299,0.0 56.095933,26.563299,0.0 55.257457,26.053638,0.0 53.80404,26.121173,0.0 52.699353,26.69381,0.0 51.886463,27.126691,0.0 51.049452,27.600577,0.0 50.214199,26.285373,0.0</coordinates></LineString><LineString><coordinates>55.308531,25.269351,0.0 55.257457,26.053638,0.0</coordinates></LineString><LineString><coordinates>56.333726,25.121693,0.0 56.855014,25.566419,0.0</coordinates></LineString><LineString><coordinates>58.591146,23.615104,0.0 58.854525,24.196216,0.0</coordinates></LineString><LineString><coordinates>50.576015,26.229497,0.0 51.886463,27.126691,0.0</coordinates></LineString><LineString><coordinates>51.519276,25.294606,0.0 52.699353,26.69381,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>Bay of Bengal Gateway BBG</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> bay-of-bengal-gateway-bbg<br>
+<b>cable_id:</b> 1735<br>
+<b>name:</b> Bay of Bengal Gateway BBG<br>
+<b>color:</b> #9ea0a2<br>
+<b>length:</b> 8,100 km<br>
+<b>rfs:</b> Q1 2016<br>
+<b>owners:</b> Vodafone,  Telekom Malaysia,  Omantel,  Reliance Jio Infocom,  Dialog Axiata,  Etisalat,  Gulf Bridge International<br>
+<b>url:</b> <br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#grayCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>bay-of-bengal-gateway-bbg</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1735</value>
+				</Data>
+				<Data name='color'>
+					<value>#9ea0a2</value>
+				</Data>
+				<Data name='length'>
+					<value>8,100 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>Q1 2016</value>
+				</Data>
+				<Data name='owners'>
+					<value>Vodafone,  Telekom Malaysia,  Omantel,  Reliance Jio Infocom,  Dialog Axiata,  Etisalat,  Gulf Bridge International</value>
+				</Data>
+				<Data name='url'>
+					<value></value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>58.452181,24.760325,0.0 56.333726,25.121693,0.0</coordinates></LineString><LineString><coordinates>79.889373,6.820775,0.0 79.12453,4.218285,0.0</coordinates></LineString><LineString><coordinates>80.242986,13.063854,0.0 90.873447,12.099891,0.0 97.481158,7.414985,0.0 100.362991,5.353843,0.0</coordinates></LineString><LineString><coordinates>70.890454,16.805964,0.0 72.875902,19.076074,0.0</coordinates></LineString><LineString><coordinates>97.480767,7.415276,0.0 81.982829,2.86934,0.0 79.12453,4.218285,0.0 74.076487,6.594503,0.0 70.890454,16.805964,0.0 70.650024,17.502346,0.0 62.524249,24.09017,0.0 58.452181,24.760325,0.0 58.004428,23.679602,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>Silk Route Gateway SRG-1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> silk-route-gateway-srg-1<br>
+<b>cable_id:</b> 1849<br>
+<b>name:</b> Silk Route Gateway SRG-1<br>
+<b>color:</b> #b3b5b7<br>
+<b>length:</b> 1,030 km<br>
+<b>rfs:</b> Q4 2017<br>
+<b>owners:</b> Multinet Pakistan,  Omantel<br>
+<b>url:</b> http://www.silkroutegateway-1.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#purpleCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>silk-route-gateway-srg-1</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1849</value>
+				</Data>
+				<Data name='color'>
+					<value>#b3b5b7</value>
+				</Data>
+				<Data name='length'>
+					<value>1,030 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>Q4 2017</value>
+				</Data>
+				<Data name='owners'>
+					<value>Multinet Pakistan,  Omantel</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.silkroutegateway-1.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>62.32503,25.132303,0.0 62.541827,24.190158,0.0</coordinates></LineString><LineString><coordinates>67.028542,24.889728,0.0 62.541827,24.190158,0.0 60.507942,24.496139,0.0 58.591146,23.615104,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>Transworld TW1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> transworld-tw1<br>
+<b>cable_id:</b> 1351<br>
+<b>name:</b> Transworld TW1<br>
+<b>color:</b> #0982c5<br>
+<b>length:</b> 1,300 km<br>
+<b>rfs:</b> June 2006<br>
+<b>owners:</b> TransWorld Associates (Pvt.) Limited<br>
+<b>url:</b> http://www.tw1.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#brownCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>transworld-tw1</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1351</value>
+				</Data>
+				<Data name='color'>
+					<value>#0982c5</value>
+				</Data>
+				<Data name='length'>
+					<value>1,300 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>June 2006</value>
+				</Data>
+				<Data name='owners'>
+					<value>TransWorld Associates (Pvt.) Limited</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.tw1.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>58.176205,23.684879,0.0 59.191439,24.740726,0.0</coordinates></LineString><LineString><coordinates>56.333726,25.121693,0.0 62.559503,24.290068,0.0 67.028542,24.889728,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>OMRAN/EPEG Cable System</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> omranepeg-cable-system<br>
+<b>cable_id:</b> 1695<br>
+<b>name:</b> OMRAN/EPEG Cable System<br>
+<b>color:</b> #f04230<br>
+<b>length:</b> 600 km<br>
+<b>rfs:</b> Q1 2013<br>
+<b>owners:</b> Omantel,  Vodafone<br>
+<b>url:</b> http://www.omantel.om<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#lightbrownCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>omranepeg-cable-system</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1695</value>
+				</Data>
+				<Data name='color'>
+					<value>#f04230</value>
+				</Data>
+				<Data name='length'>
+					<value>600 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>Q1 2013</value>
+				</Data>
+				<Data name='owners'>
+					<value>Omantel,  Vodafone</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.omantel.om</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>57.797299,25.681327,0.0 57.797299,25.190817,0.0 57.323862,24.420847,0.0</coordinates></LineString><LineString><coordinates>56.246812,26.181307,0.0 56.246812,26.181307,0.0 56.328257,26.435526,0.0 56.48978,26.435526,0.0 56.570835,25.790848,0.0 56.257945,25.616975,0.0</coordinates></LineString><LineString><coordinates>56.257945,25.616975,0.0 57.323862,24.420847,0.0 58.004428,23.679602,0.0</coordinates></LineString></MultiGeometry></Placemark>
+		
+		<Placemark>
+			<name>OMRAN/EPEG Cable System</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> omranepeg-cable-system<br>
+<b>cable_id:</b> 1695<br>
+<b>name:</b> OMRAN/EPEG Cable System<br>
+<b>color:</b> #b3b5b7<br>
+<b>length:</b> 600 km<br>
+<b>rfs:</b> Q1 2013<br>
+<b>owners:</b> Omantel,  Vodafone<br>
+<b>url:</b> http://www.omantel.om<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#lightbrownCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>omranepeg-cable-system</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1695</value>
+				</Data>
+				<Data name='color'>
+					<value>#b3b5b7</value>
+				</Data>
+				<Data name='length'>
+					<value>600 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>Q1 2013</value>
+				</Data>
+				<Data name='owners'>
+					<value>Omantel,  Vodafone</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.omantel.om</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>57.797299,25.681327,0.0 57.797299,25.190817,0.0 57.323862,24.420847,0.0</coordinates></LineString><LineString><coordinates>56.246812,26.181307,0.0 56.246812,26.181307,0.0 56.328257,26.435526,0.0 56.48978,26.435526,0.0 56.570835,25.790848,0.0 56.257945,25.616975,0.0</coordinates></LineString><LineString><coordinates>56.257945,25.616975,0.0 57.323862,24.420847,0.0 58.004428,23.679602,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>Pishgaman Oman Iran POI Network</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> pishgaman-oman-iran-poi-network<br>
+<b>cable_id:</b> 1689<br>
+<b>name:</b> Pishgaman Oman Iran POI Network<br>
+<b>color:</b> #b3b5b7<br>
+<b>length:</b> 400 km<br>
+<b>rfs:</b> June 2012<br>
+<b>owners:</b> Pishgaman Kavir<br>
+<b>url:</b> http://www.pishgaman.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#greenyellowCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>pishgaman-oman-iran-poi-network</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1689</value>
+				</Data>
+				<Data name='color'>
+					<value>#b3b5b7</value>
+				</Data>
+				<Data name='length'>
+					<value>400 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>June 2012</value>
+				</Data>
+				<Data name='owners'>
+					<value>Pishgaman Kavir</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.pishgaman.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>57.797299,25.681327,0.0 57.959311,25.190817,0.0 58.004428,23.679602,0.0</coordinates></LineString><LineString><coordinates>60.632844,25.29593,0.0 58.004428,23.679602,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>Pishgaman Oman Iran POI Network</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> pishgaman-oman-iran-poi-network<br>
+<b>cable_id:</b> 1689<br>
+<b>name:</b> Pishgaman Oman Iran POI Network<br>
+<b>color:</b> #f5cb13<br>
+<b>length:</b> 400 km<br>
+<b>rfs:</b> June 2012<br>
+<b>owners:</b> Pishgaman Kavir<br>
+<b>url:</b> http://www.pishgaman.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#greenyellowCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>pishgaman-oman-iran-poi-network</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1689</value>
+				</Data>
+				<Data name='color'>
+					<value>#f5cb13</value>
+				</Data>
+				<Data name='length'>
+					<value>400 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>June 2012</value>
+				</Data>
+				<Data name='owners'>
+					<value>Pishgaman Kavir</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.pishgaman.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>57.797299,25.681327,0.0 57.959311,25.190817,0.0 58.004428,23.679602,0.0</coordinates></LineString><LineString><coordinates>60.632844,25.29593,0.0 58.004428,23.679602,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>Gulf Bridge International Cable System GBICS, Middle East North Africa MENA Cable System</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> gulf-bridge-international-cable-system-gbicsmiddle-east-north-africa-mena-cable-system<br>
+<b>cable_id:</b> 1598<br>
+<b>name:</b> Gulf Bridge International Cable System GBICS, Middle East North Africa MENA Cable System<br>
+<b>color:</b> #f4878f<br>
+<b>length:</b> n.a.<br>
+<b>rfs:</b> February 2012<br>
+<b>owners:</b> Gulf Bridge International,  MENA<br>
+<b>url:</b> http://www.gbiinc.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#maroonCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>gulf-bridge-international-cable-system-gbicsmiddle-east-north-africa-mena-cable-system</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1598</value>
+				</Data>
+				<Data name='color'>
+					<value>#f4878f</value>
+				</Data>
+				<Data name='length'>
+					<value>n.a.</value>
+				</Data>
+				<Data name='rfs'>
+					<value>February 2012</value>
+				</Data>
+				<Data name='owners'>
+					<value>Gulf Bridge International,  MENA</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.gbiinc.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>49.326602,29.0105,0.0 49.140469,28.846652,0.0</coordinates></LineString><LineString><coordinates>56.333726,25.121693,0.0 56.697007,25.74582,0.0 56.504429,26.487019,0.0 56.130503,26.487019,0.0 55.311461,25.988961,0.0 52.503357,26.041793,0.0 51.451991,25.538931,0.0 52.041053,26.402729,0.0 51.733436,26.690494,0.0 50.74037,27.667627,0.0 49.140469,28.846652,0.0 47.974845,29.374101,0.0</coordinates></LineString><LineString><coordinates>56.333726,25.121693,0.0 57.09896,25.422828,0.0 56.629038,26.757308,0.0 56.096128,26.757308,0.0 55.257457,26.248593,0.0 53.868591,26.296405,0.0 49.326602,29.0105,0.0 48.531778,29.923634,0.0</coordinates></LineString><LineString><coordinates>58.176205,23.684879,0.0 58.24056,24.10684,0.0</coordinates></LineString><LineString><coordinates>50.656191,26.241585,0.0 51.733436,26.690494,0.0</coordinates></LineString><LineString><coordinates>50.214199,26.285373,0.0 50.74037,27.667627,0.0</coordinates></LineString><LineString><coordinates>50.842714,28.970352,0.0 50.380214,28.386987,0.0</coordinates></LineString><LineString><coordinates>56.333726,25.121693,0.0 58.24056,24.10684,0.0 60.015168,23.144955,0.0 69.142994,21.26737,0.0 72.875902,19.076074,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+		
+		<Placemark>
+			<name>Middle East North Africa MENA Cable System/Gulf Bridge International</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id:</b> middle-east-north-africa-mena-cable-systemgulf-bridge-international<br>
+<b>cable_id:</b> 1558<br>
+<b>name:</b> Middle East North Africa MENA Cable System/Gulf Bridge International<br>
+<b>color:</b> #f4878f<br>
+<b>length:</b> 8,000 km<br>
+<b>rfs:</b> December 2014<br>
+<b>owners:</b> MENA,  Gulf Bridge International<br>
+<b>url:</b> http://www.mena-scs.com<br>
+<b>col10:</b> 
+</div>]]></description>
+			<styleUrl>#orangeCable</styleUrl>
+			<ExtendedData>
+				<Data name='id'>
+					<value>middle-east-north-africa-mena-cable-systemgulf-bridge-international</value>
+				</Data>
+				<Data name='cable_id'>
+					<value>1558</value>
+				</Data>
+				<Data name='color'>
+					<value>#f4878f</value>
+				</Data>
+				<Data name='length'>
+					<value>8,000 km</value>
+				</Data>
+				<Data name='rfs'>
+					<value>December 2014</value>
+				</Data>
+				<Data name='owners'>
+					<value>MENA,  Gulf Bridge International</value>
+				</Data>
+				<Data name='url'>
+					<value>http://www.mena-scs.com</value>
+				</Data>
+				<Data name='col10'>
+					<value></value>
+				</Data>
+			</ExtendedData><MultiGeometry><LineString><coordinates>43.643207,11.533064,0.0 43.147993,11.594869,0.0</coordinates></LineString><LineString><coordinates>32.653176,29.113616,0.0 33.786281,27.424148,0.0 37.785692,21.190359,0.0 41.451705,15.21213,0.0 42.440376,13.933853,0.0 43.524164,12.131877,0.0 43.415278,11.930444,0.0 43.468696,11.829815,0.0 43.643207,11.533064,0.0 43.831,11.213489,0.0 61.891632,16.025187,0.0 60.015168,23.144955,0.0 58.24056,24.10684,0.0 58.176205,23.684879,0.0</coordinates></LineString><LineString><coordinates>29.700932,31.072267,0.0 30.290287,30.427297,0.0 31.590872,29.823118,0.0 32.653176,29.113616,0.0</coordinates></LineString><LineString><coordinates>29.700932,31.072267,0.0 30.341166,30.509869,0.0 31.641751,29.906112,0.0 32.653176,29.113616,0.0</coordinates></LineString><LineString><coordinates>37.785692,21.190359,0.0 39.182761,21.481532,0.0</coordinates></LineString><LineString><coordinates>12.591374,37.650584,0.0 11.426922,36.33716,0.0 13.201334,34.838019,0.0 28.767534,32.684847,0.0 29.700932,31.072267,0.0</coordinates></LineString></MultiGeometry>
+		</Placemark>
+	
+	</Document>
+</kml>
+		

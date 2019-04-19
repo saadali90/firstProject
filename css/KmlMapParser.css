@@ -1,0 +1,106 @@
+/***   FOR USE WITH THE KmlMapParser.js and ITS mapsidebar ***/
+.mapsidebar-ct {
+	position:absolute; 
+	height: 500px; 
+	left:730px; 
+	top:120px; 
+	width:auto;
+	overflow:auto;
+    font-family: tahoma,arial,helvetica,sans-serif;
+    font-size: 13px;
+}
+.mapsidebar ul{ margin-left:0px; padding:0px; display:block;list-style-type:none; text-decoration: none;}
+.mapsidebar ul ul {margin-left: 10px; display:block;}
+.mapsidebar ul span.open, .mapsidebar ul span.closed {
+	vertical-align: text-top; 
+	height: 16px;
+	width: 16px;
+	margin: 0 4px 0 0;
+	background-position: left center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0 0 0 18px;
+}
+.mapsidebar ul .open{
+	background-image: url(../images/folder.png);
+}
+.mapsidebar ul .closed{
+	background-image: url(../images/folderclosed.png);
+}
+.mapsidebar ul li { margin-left:0px; padding:0px;}
+.mapsidebar li.placemark { 
+	margin-left:0px; 
+	padding:0px; 
+	color: blue; 
+	cursor: pointer; 
+	text-indent: 10px;
+}
+
+.mapsidebar li.overlay { 
+	margin-left:0px; 
+	padding:0px; 
+	color: black; 
+	cursor: default; 
+	text-indent: 10px;
+}
+.mapsidebar ul img {
+    height: 16px;
+    margin: 2px 6px 0 0;
+    vertical-align: text-top;
+}
+.mapsidebar ul span.color {
+	vertical-align: text-top; 
+	height: 4px;
+	width: 8px;
+	margin: 0 4px 0 0;
+	padding: 2px 0 2px 8px;
+}
+.mapsidebar li.description {
+	vertical-align: text-top; 
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	text-indent: 2px; 
+}
+.mapsidebar div.description {
+	vertical-align: text-top; 
+	text-decoration: none;
+	color: black;
+	text-indent: 15px;
+	margin: 0px;
+	padding: 0px; 
+}
+.mapsidebar div.description table{
+		vertical-align: top; 
+		margin: 0px;
+		padding: 0px; 
+}
+.mapsidebar-td {
+    font-family: tahoma,arial,helvetica,sans-serif;
+    font-size: 13px;
+    height: 600px; 
+    width: 350px;
+    white-space: wrap;
+    position: relative;
+    vertical-align: top;
+    overflow: hidden;
+    overflow-y: auto;
+}
+span.checked{
+	width: 13px;
+	height: 14px;
+	display: inline-block;
+	padding: 0pt;
+	margin: 0pt;
+	margin-right: 4px;
+	background: url(../images/checkbox.gif) no-repeat 0px -14px;
+}
+span.unchecked{
+	width: 13px;
+	height: 14px;
+	display: inline-block;
+	padding: 0pt;
+	margin: 0pt;
+	margin-right: 4px;
+	background: url(../images/checkbox.gif) no-repeat 0px 1px;
+}
